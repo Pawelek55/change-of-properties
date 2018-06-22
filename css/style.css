@@ -1,0 +1,46 @@
+:root{
+    --base: #7ae224;
+    --spacing: 105px;
+    --blur: 13px;
+}
+
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+h1 span{
+        color: var(--base);
+}
+
+div{
+    text-align: center;
+}
+
+
+h2, input{
+    display: inline-block;
+    font-size: 40px;
+}
+
+.colorPicker{
+    color: var(--base);
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    border: 0px solid var(--base);
+    border-width: var(--spacing);
+    filter: blur(var(--blur));
+}
